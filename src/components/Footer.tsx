@@ -9,27 +9,27 @@ export function Footer() {
               <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Создаем пространства для жизни. Архитектурный опыт, где форма, свет и намерение встречаются.
+              Кухни на заказ в Оренбурге. Собственное производство, качественные материалы и установка под ключ.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Студия</h4>
+            <h4 className="text-sm font-medium mb-4">Меню</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#projects" className="hover:text-foreground transition-colors">
-                  Проекты
+                  Наши кухни
                 </a>
               </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
-                  О нас
+                  Почему мы
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-foreground transition-colors">
-                  Услуги
+                  Как работаем
                 </a>
               </li>
               <li>
@@ -45,13 +45,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:hello@prostranstvo.ru" className="hover:text-foreground transition-colors">
-                  hello@prostranstvo.ru
+                <a href="tel:+73532123456" className="hover:text-foreground transition-colors">
+                  +7 (3532) 12-34-56
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="mailto:info@kuhni-orenburg.ru" className="hover:text-foreground transition-colors">
+                  info@kuhni-orenburg.ru
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Пространство. Все права защищены.</p>
+          <p>© 2025 Кухни Оренбург. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности

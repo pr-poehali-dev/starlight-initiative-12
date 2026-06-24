@@ -15,3 +15,19 @@ Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
 5:07:25 PM [vite] hmr update /src/components/Hero.tsx, /src/index.css
 5:07:25 PM [vite] hmr update /src/components/Philosophy.tsx, /src/index.css
 5:07:29 PM [vite] page reload index.html
+5:07:38 PM [vite] page reload builds/1e03fae7db1ce256cc5bdf2f20f66aea55826bb7/4b324/index.html
+5:07:38 PM [vite] page reload builds/1e03fae7db1ce256cc5bdf2f20f66aea55826bb7/4b324/index.html
+5:08:30 PM [vite] hmr update /src/components/Hero.tsx, /src/index.css
+5:09:00 PM [vite] hmr update /src/components/Projects.tsx, /src/index.css
+5:09:09 PM [vite] hmr update /src/components/Projects.tsx, /src/index.css
+5:09:18 PM [vite] hmr update /src/components/Projects.tsx, /src/index.css
+5:09:37 PM [vite] hmr update /src/components/Expertise.tsx, /src/index.css
+5:09:49 PM [vite] hmr update /src/components/Expertise.tsx, /src/index.css
+5:10:09 PM [vite] hmr update /src/components/Philosophy.tsx, /src/index.css
+5:10:21 PM [vite] hmr update /src/components/Philosophy.tsx, /src/index.css
+5:10:51 PM [vite] hmr update /src/components/FAQ.tsx, /src/index.css
+5:11:08 PM [vite] hmr update /src/components/CallToAction.tsx, /src/index.css
+5:11:25 PM [vite] hmr update /src/components/Footer.tsx, /src/index.css
+5:11:33 PM [vite] hmr update /src/components/Footer.tsx, /src/index.css
+5:11:49 PM [vite] hmr update /src/components/Header.tsx, /src/index.css
+5:12:00 PM [vite] hmr update /src/components/Header.tsx, /src/index.css

@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { Ruler, PencilRuler, Hammer, Wrench } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Бесплатный замер",
+    description: "Дизайнер приедет к вам, снимет точные размеры помещения и поможет подобрать оптимальную планировку кухни.",
+    icon: Ruler,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Дизайн-проект",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Создаём 3D-визуализацию вашей будущей кухни. Вы увидите готовый результат ещё до начала производства.",
+    icon: PencilRuler,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Производство",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Изготавливаем кухню в собственном цеху в Оренбурге по вашим размерам. Качественные материалы и надёжная фурнитура.",
+    icon: Hammer,
   },
   {
-    title: "Градостроительство",
+    title: "Доставка и монтаж",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Аккуратно доставим и установим кухню под ключ. Подключим технику и наведём порядок после работы.",
+    icon: Wrench,
   },
 ]
 
@@ -57,14 +57,14 @@ export function Expertise() {
     <section id="services" ref={sectionRef} className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-3xl mb-20">
-          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
+          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Как мы работаем</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Под ключ</HighlightedText> — от замера
             <br />
-            практикой
+            до установки
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Берём на себя весь процесс: от первого замера до готовой кухни на вашей кухне. Вам останется только наслаждаться результатом.
           </p>
         </div>
 

@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Скандинавский минимализм",
+    category: "Прямая кухня",
+    location: "Оренбург",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/e555fc93-0ba8-4e27-9e35-f0386638daea.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Классика с островом",
+    category: "Кухня с островом",
+    location: "Оренбург",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/5e6d952b-1a4e-4131-9d63-2e3f4239aa78.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Изумрудный модерн",
+    category: "Угловая кухня",
+    location: "Оренбург",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/1a0ac954-1800-4d31-a8f8-53c116bcbd1b.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Уютная компактная",
+    category: "Кухня для квартиры",
+    location: "Оренбург",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/39d746ea-8475-4155-bb04-3b307cdd2560.jpg",
   },
 ]
 
@@ -68,14 +68,14 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши работы</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Готовые кухни</h2>
           </div>
           <a
             href="#"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Смотреть все проекты
+Смотреть все кухни
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>

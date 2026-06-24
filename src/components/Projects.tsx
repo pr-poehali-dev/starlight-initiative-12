@@ -34,6 +34,38 @@ const projects = [
     year: "2023",
     image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/39d746ea-8475-4155-bb04-3b307cdd2560.jpg",
   },
+  {
+    id: 5,
+    title: "Белый глянец",
+    category: "Кухня с островом",
+    location: "Оренбург",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/839e2759-765a-40c9-aac9-af17157c162f.jpg",
+  },
+  {
+    id: 6,
+    title: "Лофт из ореха",
+    category: "Прямая кухня",
+    location: "Оренбург",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/2c7f055c-faed-44ec-bed6-02e6b7155e17.jpg",
+  },
+  {
+    id: 7,
+    title: "Синяя классика",
+    category: "Угловая кухня",
+    location: "Оренбург",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/b654dfe4-001c-4853-b079-096418f6a7f2.jpg",
+  },
+  {
+    id: 8,
+    title: "Прованс в шалфее",
+    category: "Прямая кухня",
+    location: "Оренбург",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/aa291e06-f0d2-4c31-9dca-f3185ba147d5/files/f516b814-e4a1-4e5e-aa46-75db4d55c303.jpg",
+  },
 ]
 
 export function Projects() {
@@ -80,7 +112,7 @@ export function Projects() {
           </a>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {projects.map((project, index) => (
             <article
               key={project.id}

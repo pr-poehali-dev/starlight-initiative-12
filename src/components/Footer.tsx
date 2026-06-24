@@ -45,14 +45,17 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="tel:+73532123456" className="hover:text-foreground transition-colors">
-                  +7 (3532) 12-34-56
+                <a href="tel:+79962557733" className="hover:text-foreground transition-colors">
+                  +7 (996) 255-77-33
                 </a>
               </li>
               <li>
                 <a href="mailto:info@kuhni-orenburg.ru" className="hover:text-foreground transition-colors">
                   info@kuhni-orenburg.ru
                 </a>
+              </li>
+              <li className="text-muted-foreground">
+                ул. Шоссейная, 10, Оренбург
               </li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
